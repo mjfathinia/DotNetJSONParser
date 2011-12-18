@@ -1,0 +1,12 @@
+Yet Another JSON Parser for DotNet 4.0
+--------------------------------------
+
+This is a simple and handy JSON parser adopted from Shawn Weisfeld (http://bit.ly/jPqVsQ) code. It uses Dynamic type that has been introduced in .Net 4.0. I have added an extension function to string class to make my life easier :)
+
+
+Usage
+-----
+
+Let's say you stored JSON strin in a variable called jsonStr, then you can simply parse it as following:
+
+dynamic parsedStr = jsonStr.ParseJSON();
